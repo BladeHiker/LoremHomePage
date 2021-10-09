@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #fafafa;
+    overflow-x: hidden;
+    font-family: SF Pro SC, SF Pro Text, SF Pro Icons, PingFang SC, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+header {
+    /*position: sticky;*/
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    padding-right: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.6);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
+    box-shadow: -2px 0px 8px #888888;
+}
+header ul {
+    list-style-type: none;
+    height: 50px;
+}
+header ul li {
+    float: left;
+    line-height: 50px;
+    height: 50px;
+    padding: 0 10px;
+}
+header ul .link-li:hover {
+    background: #f0f0f0;
+}
+.logo {
+    margin-right: 10px;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.right-li {
+    float: right;
+}
+.intro-section {
+    height: min(80vh, 600px);
+    background: #1E4078;
+    background-image: url('../assert/slogan.jpg');
+    background-size: cover;
+    padding: 10vh 10vw;
+    box-sizing: border-box;
+}
+.slogan {
+    font-size: 50px;
+    width: 600px;
+    color: white;
+    /*background: #e96767db;*/
+    padding: 20px;
+}
+.sub-slogan {
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+.project-section {
+    height: 300px;
+    background: #EEF0F1;
+    padding: 20px;
+}
+.content {
+    width: min(80vw, 1000px);
+    margin: 0 auto;
+}
+.devs {
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.person {
+    margin: 10px 30px;
+    cursor: pointer;
+}
+.person .name {
+    text-align: center;
+    margin: 10px 0;
+}
+.person img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+.person img:hover {
+    transform: scale(1.1);
+}
+.section-label {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.people-section {
+    height: 250px;
+}
+.project-container {
+    padding: 50px;
+}
+.project-title {
+    color: white;
+    font-size: 35px;
+    margin: 20px 0;
+}
+.text-con {
+    width: 250px;
+}
+.right-title {
+    float: right;
+}
+.project-info {
+    color: white;
+}
+.project-link {
+    margin: 20px 0;
+}
+.project-link button {
+    height: 40px;
+    width: 150px;
+    border-radius: 50px;
+    font-size: 20px;
+    background: #FF6600;
+    border: none;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04)
+}
+.project-link button:hover {
+    background: #ff7f2a;
+}
+#loremsurvey {
+    background: #007DBB;
+    background-image: url('../assert/survey.png');
+    background-attachment: fixed;
+}
+#chat {
+    background-image: url('../assert/chat.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.end-section{
+	height: 200px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.moral{
+	font-size: 50px;
+}
+footer {
+    height: 100px;
+    background: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+footer div{
+	padding: 2px;
+}
